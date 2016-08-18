@@ -15,11 +15,13 @@ function johnLennonFacts(facts) {
   }
   return factsPlus
 }
-
+/* remember that what you need to do each time goes in do and
+what you want to do last goes after everything, but before the
+closing curly braces*/
 function iLoveTheBeatles(n) {
   var arrays = [];
   do { arrays.push("I love the Beatles!")
     n++
-  } while (n < 15) 
+  } while (n < 15)
   return arrays
 }
